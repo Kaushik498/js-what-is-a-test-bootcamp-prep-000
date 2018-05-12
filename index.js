@@ -4,3 +4,11 @@ var height = 74
 var message = `${name} is ${height} inches tall`
 
 module.exports = {name, height, message}
+
+describe('Height' , () =>
+{
+  it('is less than 40', () => 
+  {
+    expect(index.height).toBeLessThan(40)
+  })
+})
